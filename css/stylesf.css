@@ -1,0 +1,79 @@
+*/
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,
+body {
+	height: 10%;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+	background-color: #181e1f;
+	color: #fff;
+	display: grid;
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+p {
+	padding-bottom: 10px;
+}
+i {
+	font-size: 30px;
+}
+/* ======================== */
+.footer {
+
+	color: #08090e;
+	/* Margin-top: auto; for demo use only */
+	margin-top: 0;
+}
+.footer__container {
+	max-width: 1160px;
+	margin: 0;
+	padding: 0;
+}
+.footer__top {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	row-gap: 20px;
+}
+.footer__title {
+	font-size: 18px;
+	color: #0f0b0b;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+.footer__list {
+	display: flex;
+	flex-direction: column;
+	gap: 17px;
+}
+.footer__list-link {
+	transition: color 0.25s;
+}
+.footer__list-link:hover {
+	color: #faeeee;
+}
+.footer__divider {
+	margin-block: 25px;
+	border: none;
+	border-top: 1px solid rgba(89, 17, 104, 0.1);
+}
+.footer__bottom {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+.footer__list--bottom {
+	flex-direction: row;
+}
